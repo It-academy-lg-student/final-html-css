@@ -1,0 +1,368 @@
+
+
+
+
+body {
+    width: 1440px;
+    background-color: FFFFF; 
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 100%;  
+    margin-bottom: 93px;
+  
+}
+
+
+
+.bg-img {
+    background-image: url(images/Background.png);
+    background-size: cover; 
+    width: 100%; 
+    height: 768px;
+
+    
+   
+}
+
+.nav {
+    display: flex;
+    margin-top: -33px;
+    margin-right: 165px;
+ }
+
+header h2 {
+    display: flex;
+    padding-top: 93px;
+    padding-left: 165px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 188px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 105px;
+
+}
+
+header a, footer a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    margin-left: 188px;
+    margin-top: 180px;
+}
+
+header span {
+    margin-left: 188px;
+    
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown {
+    display: none;
+}
+
+.progress-bar  {
+    background-color: #C66C49; 
+}
+.progress {
+    background-color: #F5D6AB;
+    width: 450px;
+}
+
+.card-img {
+    width: 350px;
+    height: 340px;
+}
+
+.p1, .p2 {
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.title1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 93px;
+    margin-bottom: 76px;
+}
+
+.prof p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3888;
+}
+
+.prof {
+ margin-left: -20px;
+}
+
+.title2, .title3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 93px;
+    margin-bottom: 86px;
+}
+
+.title4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 93px;
+    margin-bottom: 61px; 
+}
+
+
+
+.title-3_1 {
+margin-top: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3888;
+    margin-bottom: 48px;
+    margin-top: -20px;
+}
+
+.uni {
+    margin-top: -4%;
+    margin-right: -40px;
+}
+
+.sec-2 {
+    margin-left: 15px;
+}
+
+.sec-3, .sec-4 {
+    margin-bottom: 145px;
+}
+
+.sec-3 {
+    margin-top: 93px; 
+}
+
+.mail, .tel {
+    text-decoration: none;
+    list-style: none;
+}
+
+.contacts {
+    margin-bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 600px) and (min-width: 380px) {
+
+    body {
+        width: 100%;
+    }
+
+    .container-fluid {
+        width: 380px;   
+
+        }
+
+        .mobile-menu span {
+            display: block;
+
+        }
+
+    header .nav {
+        display: none;
+        
+    } 
+    
+    header {
+        margin-left: 5%;
+       width: 100%; 
+       height: 275px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-left: 80px;
+
+    }
+
+    header p {
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+
+    } 
+
+    header span  {
+        display: block;
+        margin-top: 8%; 
+        margin-left: 150px;
+        
+    }
+     
+    header span a {
+        font-size: 13px;
+        font-weight: 400;
+       
+    }
+
+    header h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: -60px;
+        margin-bottom: 40px;
+        margin-left: -30px;
+    }
+    
+    .bg-img {
+        width: 375px;
+        height: 275px;
+    }
+
+    .dropdown {
+        display: block;
+       margin-top: -20%;
+       margin-left: 20px;
+    }
+
+    .p1, .p2 {
+    font-size: 12px;
+    font-weight: 400;
+
+    }
+    
+    
+
+    .title1 {
+        margin-top: -100px;
+        margin-bottom: 20px;
+        text-align: center;
+    } 
+
+    .sec-2 {
+        margin-top: 20px;
+        margin-bottom: -80px;
+        margin-right: 20px;
+        
+    }
+
+    .title2 {
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+     
+    .sec-3 img {
+        width: 224px;
+        height: 218px;
+        margin-left: 50px;
+    }
+
+    .prof {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+   .prof p {
+    font-size: 12px;
+    font-weight: 600;
+   }
+
+   .prof2 {
+    margin-left: 120px;
+    margin-top: -77%;
+    width: 211px;
+   }
+
+   .prof2 p{
+    font-size: 12px;
+    font-weight: 400;
+   }
+
+   .uni {
+    display: none;
+   }
+
+   .sec-4 {
+    margin-top: -50%;
+   }
+
+   .title3 {
+    text-align: center;
+   }
+
+   .title-3_1 {
+    text-align: center;
+    margin-top: -50px;
+   }
+   .p2 {
+    text-align: center;
+   }
+
+   .pic3 {
+    width: 170px;
+    height: 70px;
+    
+   }
+
+   .pic4 {
+    width: 170px;
+    height: 155px;
+   }
+
+   .pic5 {
+    width: 144px;
+    height: 133px;
+   }
+
+   .pic6 {
+    width: 144px;
+    height: 90px;
+   }
+
+   .pict {
+    margin-left: -10px;
+    margin-right: 15px;
+   }
+
+   .title4 {
+    text-align: center;
+   }
+
+   footer {
+    margin-top: -55%;
+   }
+
+   .f-nav2 {
+    margin-left: 200px;
+    margin-top: -200px
+   }
+
+   .contacts {
+    margin-top: 30px;
+   }
+
+}
+
